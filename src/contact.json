@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "platform": "facebook",
+        "link": "https://www.facebook.com/ariel.strayer",
+        "icon": "Facebook",
+        "blurb": "Find me on Facebook"
+    },
+    {
+        "id": "2",
+        "platform": "GitHub",
+        "link": "https://github.com/arielbs1991",
+        "icon": "Github",
+        "blurb": "See my projects on Github"
+    },
+    {
+        "id": "3",
+        "platform": "LinkedIn",
+        "link": "https://www.linkedin.com/in/ariel-strayer-28640b190/",
+        "icon": "LinkedIn",
+        "blurb": "Connect with me on LinkedIn"
+    }
+]

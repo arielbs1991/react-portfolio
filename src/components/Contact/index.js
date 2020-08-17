@@ -1,5 +1,9 @@
 import React from "react";
-import { Container, Grid, Card } from '@material-ui/core';
+import { Container, Grid, Typography } from '@material-ui/core';
+import { MailOutline, Call, LocationOn } from '@material-ui/icons';
+import GitHubCard from '../GitHubCard';
+import FacebookCard from '../FacebookCard';
+import LinkedInCard from '../LinkedInCard';
 
 const Contact = () => {
     return (
@@ -11,10 +15,16 @@ const Contact = () => {
                     justify="center"
                     alignItems="center">
                     <Grid item xs={12}>
-                        <h1>Contact Me</h1>
+                        <Typography variant="h3">Contact Me</Typography>
                     </Grid>
                     <Grid item xs={12} md={6} lg={4}>
-
+                        <FacebookCard />
+                    </Grid>
+                    <Grid item xs={12} md={6} lg={4}>
+                        <GitHubCard />
+                    </Grid>
+                    <Grid item xs={12} md={6} lg={4}>
+                        <LinkedInCard />
                     </Grid>
                 </Grid>
             </Container>

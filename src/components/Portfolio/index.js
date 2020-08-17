@@ -1,6 +1,13 @@
 import React from "react";
-import { Container, Grid, Card, Typography } from '@material-ui/core';
+import { Container, Grid, Typography } from '@material-ui/core';
 import ProjectCard from '../ProjectCard';
+import project from "../../projects.json";
+import BurgerBuilders from '../../images/burger-builders.png';
+import DayScheduler from '../../images/day-scheduler.png';
+import NoteTaker from '../../images/note-taker.png';
+import RNGPassword from '../../images/rng-password.png';
+import Wavel from '../../images/wavel.png';
+import WineKey from '../../images/wine-key.png';
 
 
 const Portfolio = () => {
@@ -18,7 +25,7 @@ const Portfolio = () => {
                     <Grid item xs={12} md={6} lg={4}>
                         <ProjectCard
                             title={project[0].title}
-                            image={project[0].image}
+                            image={WineKey}
                             github={project[0].github}
                             deployed={project[0].deployed}
                             description={project[0].description}
@@ -27,7 +34,7 @@ const Portfolio = () => {
                     <Grid item xs={12} md={6} lg={4}>
                     <ProjectCard
                             title={project[1].title}
-                            image={project[1].image}
+                            image={Wavel}
                             github={project[1].github}
                             deployed={project[1].deployed}
                             description={project[1].description}
@@ -36,7 +43,7 @@ const Portfolio = () => {
                     <Grid item xs={12} md={6} lg={4}>
                     <ProjectCard
                             title={project[2].title}
-                            image={project[2].image}
+                            image={BurgerBuilders}
                             github={project[2].github}
                             deployed={project[2].deployed}
                             description={project[2].description}
@@ -45,7 +52,7 @@ const Portfolio = () => {
                     <Grid item xs={12} md={6} lg={4}>
                     <ProjectCard
                             title={project[3].title}
-                            image={project[3].image}
+                            image={NoteTaker}
                             github={project[3].github}
                             deployed={project[3].deployed}
                             description={project[3].description}
@@ -54,7 +61,7 @@ const Portfolio = () => {
                     <Grid item xs={12} md={6} lg={4}>
                     <ProjectCard
                             title={project[4].title}
-                            image={project[4].image}
+                            image={RNGPassword}
                             github={project[4].github}
                             deployed={project[4].deployed}
                             description={project[4].description}
@@ -63,7 +70,7 @@ const Portfolio = () => {
                     <Grid item xs={12} md={6} lg={4}>
                     <ProjectCard
                             title={project[5].title}
-                            image={project[5].image}
+                            image={DayScheduler}
                             github={project[5].github}
                             deployed={project[5].deployed}
                             description={project[5].description}
