@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Grid, Typography } from '@material-ui/core';
-import { MailOutline, Call, LocationOn } from '@material-ui/icons';
 import GitHubCard from '../GitHubCard';
 import FacebookCard from '../FacebookCard';
 import LinkedInCard from '../LinkedInCard';
+import ContactCard from '../ContactCard';
 
 const Contact = () => {
     return (
@@ -18,13 +18,16 @@ const Contact = () => {
                         <Typography variant="h3">Contact Me</Typography>
                     </Grid>
                     <Grid item xs={12} md={6} lg={4}>
-                        <FacebookCard />
+                        <LinkedInCard />
                     </Grid>
                     <Grid item xs={12} md={6} lg={4}>
                         <GitHubCard />
                     </Grid>
                     <Grid item xs={12} md={6} lg={4}>
-                        <LinkedInCard />
+                        <FacebookCard />
+                    </Grid>
+                    <Grid item xs={12} md={12} lg={12}>
+                        <ContactCard />
                     </Grid>
                 </Grid>
             </Container>

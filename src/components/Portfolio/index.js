@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Grid, Typography } from '@material-ui/core';
 import ProjectCard from '../ProjectCard';
-import project from "../../projects.json";
+import project from "../../db/projects.json";
 import BurgerBuilders from '../../images/burger-builders.png';
 import DayScheduler from '../../images/day-scheduler.png';
 import NoteTaker from '../../images/note-taker.png';
