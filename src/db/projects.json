@@ -12,7 +12,7 @@
         "title": "Wavel",
         "image": "Wavel",
         "github": "https://github.com/wild1k/Wavel-",
-        "deployed": "https://wild1k.github.io/Wavel-/",
+        "deployed": "https://github.com/arielbs1991/Wavel-",
         "description": "Wavel - where your travel inquiries meet weather forecasts, best restaurants to try, and hotel availabilities in a single search. This was my first team project in UW's Bootcamp. With Wavel, a user can search for a city by name, and a series of web APIs gather information to return a five-day forecast, top-rated restaurants, and available hotels in that city, as well as an interactive map of the area."
     },
     {
