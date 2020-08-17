@@ -1,5 +1,6 @@
 import React from "react";
-import { Container, Grid, Card } from '@material-ui/core';
+import { Container, Grid, Card, Typography } from '@material-ui/core';
+
 
 const Portfolio = () => {
     return (
@@ -11,7 +12,22 @@ const Portfolio = () => {
                     justify="center"
                     alignItems="center">
                     <Grid item xs={12}>
-                        <h1>My Portfolio</h1>
+                        <Typography variant="h3">My Portfolio</Typography>
+                    </Grid>
+                    <Grid item xs={12} md={6} lg={4}>
+
+                    </Grid>
+                    <Grid item xs={12} md={6} lg={4}>
+
+                    </Grid>
+                    <Grid item xs={12} md={6} lg={4}>
+
+                    </Grid>
+                    <Grid item xs={12} md={6} lg={4}>
+
+                    </Grid>
+                    <Grid item xs={12} md={6} lg={4}>
+
                     </Grid>
                     <Grid item xs={12} md={6} lg={4}>
 

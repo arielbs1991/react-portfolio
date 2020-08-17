@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Wine Key",
+        "image": "WineKey",
+        "github": "https://github.com/arielbs1991/Wine-Key",
+        "deployed": "https://fv-winekey.herokuapp.com/",
+        "description": "We developed this application at the request of Fire&Vine, a company best known for their El Gaucho locations across the greater Seattle area. With this app, a user can view wine inventories for stores across the company and locate excess bottles that may not be sold otherwise. Management can update their store inventory at the click of a button, and quickly contact locations they KNOW have the wine they need without having to call around."
+    },
+    {
+        "id": 2,
+        "title": "Wavel",
+        "image": "Wavel",
+        "github": "https://github.com/wild1k/Wavel-",
+        "deployed": "https://wild1k.github.io/Wavel-/",
+        "description": "Wavel - where your travel inquiries meet weather forecasts, best restaurants to try, and hotel availabilities in a single search. This was my first team project in UW's Bootcamp. With Wavel, a user can search for a city by name, and a series of web APIs gather information to return a five-day forecast, top-rated restaurants, and available hotels in that city, as well as an interactive map of the area."
+    },
+    {
+        "id": 3,
+        "title": "Burger Builders!",
+        "image": "BurgerBuilders",
+        "github": "https://github.com/arielbs1991/burger-logger-hw",
+        "deployed": "https://thawing-crag-34629.herokuapp.com/",
+        "description": "Burger Builders is a fun little page where a user can enter a description of a hamburger they'd like to eat. Their burger can be moved back and forth between a ready-to-eat column and a consumed column, or deleted from the page. This project utilizes a mySQL database to persistently store user's burger information."
+    },
+    {
+        "id": 4,
+        "title": "Note Taker",
+        "image": "NoteTaker",
+        "github": "https://github.com/arielbs1991/note-taker-hw",
+        "deployed": "https://ariel-note-taker.herokuapp.com/",
+        "description": "This application allows a user to create persistent notes that can be saved, viewed, and deleted. It was my first assignment deployed using heroku."
+    },
+    {
+        "id": 5,
+        "title": "Random Password Generator",
+        "image": "RNGPassword",
+        "github": "https://github.com/arielbs1991/password-generator-homework",
+        "deployed": "https://arielbs1991.github.io/password-generator-homework/",
+        "description": "This little project was among my first assignments. It allows a user to set preferences regarding a length and what types of characters they'd like in their password and generates a a string randomly that meets their requirements."
+    },
+    {
+        "id": 6,
+        "title": "Day Planner",
+        "image": "DayScheduler",
+        "github": "https://github.com/arielbs1991/day-planner-hw",
+        "deployed": "https://arielbs1991.github.io/day-planner-hw/",
+        "description": "This is a simple calendar app for scheduling your workday. It saves a user's created schedule to local storage so they may reference it again."
+    }
+]
