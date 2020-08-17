@@ -17,11 +17,13 @@ const ProjectCard = (props) => {
     return (
         <Card className={classes.root}>
             <CardActionArea>
-                <CardMedia
+            <a href={props.deployed} target="_blank" rel="noopener noreferrer">
+            <CardMedia
                     className={classes.media}
                     image={props.image}
                     title={props.title}
-                ><a href={props.deployed} target="_blank" rel="noopener noreferrer"></a></CardMedia>
+                ></CardMedia>
+                </a>
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="h2"><a href={props.deployed} target="_blank" rel="noopener noreferrer">
                         {props.title}
