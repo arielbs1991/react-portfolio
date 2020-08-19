@@ -1,11 +1,11 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Card, CardContent, Grid, List, ListSubheader, ListItem, ListItemIcon, ListItemText, Collapse } from '@material-ui/core';
-import { MailOutline, Call, LocationOn, ExpandLess, ExpandMore, CenterFocusStrong } from '@material-ui/icons';
+import { MailOutline, Call, LocationOn, ExpandLess, ExpandMore } from '@material-ui/icons';
 
 
 
-const ContactCard = () => {
+const LocationContactCard = () => {
     const useStyles = makeStyles({
         root: {
             minWidth: 275,
@@ -21,10 +21,6 @@ const ContactCard = () => {
         pos: {
             marginBottom: 12,
         },
-        subheadertext: {
-            alignItems: 'center',
-            justifyContent: 'center'
-        }
     });
 
     const classes = useStyles();
@@ -38,17 +34,7 @@ const ContactCard = () => {
         <Card className={classes.root}>
             <CardContent>
                 <Grid constainer alignItems="center" className={classes.root}>
-                    <List
-                        component="nav"
-                    >
-
-
-                        <ListItem className={classes.subheadertext} component="div">
-                            Contact Me Directly
-                    </ListItem>
-
-                        {/* className={classes.root} */}
-
+                    <List>
                         {/* <ListItem button onClick={handleClick}>
                             <ListItemIcon>
                                 <MailOutline />
@@ -62,8 +48,8 @@ const ContactCard = () => {
                                     <ListItemText primary="ariel.strayer@gmail.com" />
                                 </ListItem>
                             </List>
-                        </Collapse>
-                        <ListItem button onClick={handleClick}>
+                        </Collapse> */}
+                        {/* <ListItem button onClick={handleClick}>
                             <ListItemIcon>
                                 <Call />
                             </ListItemIcon>
@@ -76,7 +62,7 @@ const ContactCard = () => {
                                     <ListItemText primary="(206)705-3506" />
                                 </ListItem>
                             </List>
-                        </Collapse>
+                        </Collapse> */}
                         <ListItem button onClick={handleClick}>
                             <ListItemIcon>
                                 <LocationOn />
@@ -90,7 +76,7 @@ const ContactCard = () => {
                                     <ListItemText primary="Seattle, US" />
                                 </ListItem>
                             </List>
-                        </Collapse> */}
+                        </Collapse>
                     </List>
                     {/* <MailOutline>
                         <Box>
@@ -108,4 +94,4 @@ const ContactCard = () => {
     );
 }
 
-export default ContactCard;
+export default LocationContactCard;

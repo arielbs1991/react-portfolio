@@ -1,25 +1,50 @@
-import React from "react";
-import { Container, Grid } from '@material-ui/core';
+import React, { useState } from "react";
+import { Container, Grid, Typography } from '@material-ui/core';
+import { pdfjsLib, Document, Page } from 'react-pdf';
+import resume from '../../srcresume.pdf';
 
 const ResumeButton = () => {
 
+    const [numPages, setNumPages] = useState(null);
+    const [pageNumber, setPageNumber] = useState(1);
+
+    function onDocumentLoadSuccess({ numPages }) {
+        setNumPages(numPages);
+    }
+
     return (
         <div>
-        <Container maxWidth="lg">
-            <Grid
-                container
-                direction="row"
-                justify="center"
-                alignItems="center">
-                <Grid item xs={12}>
-                    <h1>Click to Download</h1>
+            <Container maxWidth="lg">
+                <Grid
+                    container
+                    direction="row"
+                    justify="center"
+                    alignItems="center">
+                    <Grid item xs={12}>
+                        <a href='/resume/devresume2020.pdf' download="astrayer_resume.pdf" target="_blank">
+                            <Typography component={'span'} variant={'h5'}>Click to Download PDF</Typography>
+                        </a>
+                    </Grid>
+                    <Grid item xs={12}>
+                        <a href='/resume/devresume2020.zip' download="astrayer_resume.zip" target="_blank">
+                            <Typography component={'span'} variant={'h5'}>Click to Download Zip File</Typography>
+                        </a>
+                    </Grid>
+                    {/* <Grid item xs={12}>
+                        <Document
+                            file={resume}
+                            onLoadSuccess={onDocumentLoadSuccess}
+                            onLoadError={console.error}
+                        >
+                            <Page pageNumber={pageNumber} />
+                        </Document>
+                        <Typography component={'span'} variant={'body2'}>
+                            Page {pageNumber} of {numPages}
+                        </Typography>
+                    </Grid> */}
                 </Grid>
-                <Grid item xs={12} md={6} lg={4}>
-
-                </Grid>
-            </Grid>
-        </Container>
-    </div>
+            </Container>
+        </div>
     )
 }
 
