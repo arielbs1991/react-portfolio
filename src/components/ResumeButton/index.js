@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { Container, Grid, Typography } from '@material-ui/core';
 import { pdfjsLib, Document, Page } from 'react-pdf';
 import resume from '../../srcresume.pdf';
+import resumeP1 from '../../images/resumepg1.png';
+import resumeP2 from '../../images/resumepg2.png';
+require('./ResumeButton.css');
 
 const ResumeButton = () => {
 
@@ -29,6 +32,12 @@ const ResumeButton = () => {
                         <a href='/resume/devresume2020.zip' download="astrayer_resume.zip" target="_blank">
                             <Typography component={'span'} variant={'h5'}>Click to Download Zip File</Typography>
                         </a>
+                    </Grid>
+                    <Grid item xs={12} me={12} lg={6}>
+                        <img alt="page one of resume, I apologize for not having a pdf" className="resume" src={resumeP1}></img>
+                    </Grid>
+                    <Grid item xs={12} me={12} lg={6}>
+                        <img alt="page two of resume, I apologize for not having a pdf" className="resume" src={resumeP2}></img>
                     </Grid>
                     {/* <Grid item xs={12}>
                         <Document
