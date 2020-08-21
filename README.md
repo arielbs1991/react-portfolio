@@ -12,9 +12,9 @@ This is my professional portfolio, buit with React and deployed to Heroku. It co
 
 [Resume Page](./readme-images/resume-screenshot.png)
 
-Deployed Link: https://astrayerportfolio.herokuapp.com/
+[Deployed Link](https://astrayerportfolio.herokuapp.com/)
 
-GitHub Link: https://github.com/arielbs1991/react-portfolio
+[GitHub Link](https://github.com/arielbs1991/react-portfolio)
 
 ## Future Development
 
