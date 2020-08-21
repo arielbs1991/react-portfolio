@@ -10,8 +10,10 @@ import LocationContactCard from '../LocationContactCard';
 
 const Contact = () => {
     return (
-        <div>
-            <Container maxWidth="lg">
+        <span>
+            <Container
+
+                maxWidth="lg">
                 <Grid
                     container
                     direction="row"
@@ -43,7 +45,7 @@ const Contact = () => {
                     </Grid>
                 </Grid>
             </Container>
-        </div>
+        </span>
     )
 }
 

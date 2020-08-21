@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Card, CardContent, Grid, List, ListItem, ListItemIcon, ListItemText, Collapse } from '@material-ui/core';
-import { MailOutline, Call, LocationOn, ExpandLess, ExpandMore } from '@material-ui/icons';
+import { MailOutline, ExpandLess, ExpandMore } from '@material-ui/icons';
 
 
 
@@ -9,11 +9,6 @@ const EmailContactCard = () => {
     const useStyles = makeStyles({
         root: {
             minWidth: 275,
-        },
-        bullet: {
-            display: 'inline-block',
-            margin: '0 2px',
-            transform: 'scale(0.8)',
         },
         title: {
             fontSize: 14,

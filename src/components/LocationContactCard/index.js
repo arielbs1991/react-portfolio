@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Card, CardContent, Grid, List, ListSubheader, ListItem, ListItemIcon, ListItemText, Collapse } from '@material-ui/core';
-import { MailOutline, Call, LocationOn, ExpandLess, ExpandMore } from '@material-ui/icons';
+import { Card, CardContent, Grid, List, ListItem, ListItemIcon, ListItemText, Collapse } from '@material-ui/core';
+import { LocationOn, ExpandLess, ExpandMore } from '@material-ui/icons';
 
 
 

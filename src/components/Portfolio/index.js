@@ -12,15 +12,16 @@ import WineKey from '../../images/wine-key.png';
 
 const Portfolio = () => {
     return (
-        <div>
-            <Container maxWidth="lg">
+        <span>
+            <Container
+                maxWidth="lg">
                 <Grid
                     container
                     direction="row"
                     justify="center"
                     alignItems="center">
                     <Grid item xs={12}>
-                        <Typography variant="h3">My Portfolio</Typography>
+                        <Typography variant="h3">Portfolio</Typography>
                     </Grid>
                     <Grid item xs={12} md={6} lg={4}>
                         <ProjectCard
@@ -32,7 +33,7 @@ const Portfolio = () => {
                         />
                     </Grid>
                     <Grid item xs={12} md={6} lg={4}>
-                    <ProjectCard
+                        <ProjectCard
                             title={project[1].title}
                             image={Wavel}
                             github={project[1].github}
@@ -41,7 +42,7 @@ const Portfolio = () => {
                         />
                     </Grid>
                     <Grid item xs={12} md={6} lg={4}>
-                    <ProjectCard
+                        <ProjectCard
                             title={project[2].title}
                             image={BurgerBuilders}
                             github={project[2].github}
@@ -50,7 +51,7 @@ const Portfolio = () => {
                         />
                     </Grid>
                     <Grid item xs={12} md={6} lg={4}>
-                    <ProjectCard
+                        <ProjectCard
                             title={project[3].title}
                             image={NoteTaker}
                             github={project[3].github}
@@ -59,7 +60,7 @@ const Portfolio = () => {
                         />
                     </Grid>
                     <Grid item xs={12} md={6} lg={4}>
-                    <ProjectCard
+                        <ProjectCard
                             title={project[4].title}
                             image={RNGPassword}
                             github={project[4].github}
@@ -68,7 +69,7 @@ const Portfolio = () => {
                         />
                     </Grid>
                     <Grid item xs={12} md={6} lg={4}>
-                    <ProjectCard
+                        <ProjectCard
                             title={project[5].title}
                             image={DayScheduler}
                             github={project[5].github}
@@ -78,7 +79,7 @@ const Portfolio = () => {
                     </Grid>
                 </Grid>
             </Container>
-        </div>
+        </span>
     )
 }
 

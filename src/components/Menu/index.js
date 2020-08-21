@@ -7,13 +7,14 @@ import About from '../About';
 import Portfolio from '../Portfolio';
 import Contact from '../Contact';
 import ResumeButton from '../ResumeButton';
+require('./Menu.css');
 
 const Menu = () => {
     function TabPanel(props) {
         const { children, value, index, ...other } = props;
 
         return (
-            <div
+            <span
                 role="tabpanel"
                 hidden={value !== index}
                 id={`nav-tabpanel-${index}`}
@@ -25,7 +26,7 @@ const Menu = () => {
                         <Typography>{children}</Typography>
                     </Box>
                 )}
-            </div>
+            </span>
         );
     }
 
@@ -76,6 +77,7 @@ const Menu = () => {
                     value={value}
                     onChange={handleChange}
                     aria-label="nav tabs example"
+                    className="tabs"
                 >
                     <LinkTab icon={<EmojiEmotions />} label="ABOUT" href="/about" {...a11yProps(0)} />
                     <LinkTab icon={<Apps />} label="PORTFOLIO" href="/portfolio" {...a11yProps(1)} />
@@ -85,16 +87,16 @@ const Menu = () => {
             </AppBar>
             <TabPanel value={value} index={0}>
                 <About />
-        </TabPanel>
+            </TabPanel>
             <TabPanel value={value} index={1}>
                 <Portfolio />
-        </TabPanel>
+            </TabPanel>
             <TabPanel value={value} index={2}>
                 <Contact />
-        </TabPanel>
+            </TabPanel>
             <TabPanel value={value} index={3}>
                 <ResumeButton />
-        </TabPanel>
+            </TabPanel>
         </div>
     );
 };

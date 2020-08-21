@@ -1,9 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Card, CardContent, Grid, List, ListSubheader, ListItem, ListItemIcon, ListItemText, Collapse } from '@material-ui/core';
-import { MailOutline, Call, LocationOn, ExpandLess, ExpandMore, CenterFocusStrong } from '@material-ui/icons';
-
-
+import { Card, CardContent, Grid, List, ListItem, } from '@material-ui/core';
 
 const ContactCard = () => {
     const useStyles = makeStyles({
@@ -28,12 +25,7 @@ const ContactCard = () => {
     });
 
     const classes = useStyles();
-    const [open, setOpen] = React.useState(true);
-
-    const handleClick = () => {
-        setOpen(!open);
-    };
-
+    
     return (
         <Card className={classes.root}>
             <CardContent>
