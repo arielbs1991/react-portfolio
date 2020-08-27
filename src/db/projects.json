@@ -1,6 +1,14 @@
 [
     {
         "id": 1,
+        "title": "Pawsitivity",
+        "image": "Pawsitivity",
+        "github": "https://github.com/arielbs1991/pawsitivity-front-end",
+        "deployed": "https://pawsitivity-atack.herokuapp.com/",
+        "description": "Pawsitivity is takes a user's lifestyle into consideration and returns adoptable pets from nearby shelters to choose from. The app bridges the gap between users and shelters to make the process of finding your new best friend smooth. Shelters are able to create their own accounts and add available animals directly to the app, as well."
+    },
+    {
+        "id": 2,
         "title": "Wine Key",
         "image": "WineKey",
         "github": "https://github.com/arielbs1991/Wine-Key",
@@ -8,7 +16,7 @@
         "description": "We developed this application at the request of Fire&Vine, a company best known for their El Gaucho locations across the greater Seattle area. With this app, a user can view wine inventories for stores across the company and locate excess bottles that may not be sold otherwise. Management can update their store inventory at the click of a button, and quickly contact locations they KNOW have the wine they need without having to call around."
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "Wavel",
         "image": "Wavel",
         "github": "https://github.com/wild1k/Wavel-",
@@ -16,7 +24,7 @@
         "description": "Wavel - where your travel inquiries meet weather forecasts, best restaurants to try, and hotel availabilities in a single search. This was my first team project in UW's Bootcamp. With Wavel, a user can search for a city by name, and a series of web APIs gather information to return a five-day forecast, top-rated restaurants, and available hotels in that city, as well as an interactive map of the area."
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "Burger Builders!",
         "image": "BurgerBuilders",
         "github": "https://github.com/arielbs1991/burger-logger-hw",
@@ -24,7 +32,7 @@
         "description": "Burger Builders is a fun little page where a user can enter a description of a hamburger they'd like to eat. Their burger can be moved back and forth between a ready-to-eat column and a consumed column, or deleted from the page. This project utilizes a mySQL database to persistently store user's burger information."
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Note Taker",
         "image": "NoteTaker",
         "github": "https://github.com/arielbs1991/note-taker-hw",
@@ -32,7 +40,7 @@
         "description": "This application allows a user to create persistent notes that can be saved, viewed, and deleted. It was my first assignment deployed using heroku."
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Random Password Generator",
         "image": "RNGPassword",
         "github": "https://github.com/arielbs1991/password-generator-homework",
@@ -40,7 +48,7 @@
         "description": "This little project was among my first assignments. It allows a user to set preferences regarding a length and what types of characters they'd like in their password and generates a a string randomly that meets their requirements."
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "Day Planner",
         "image": "DayScheduler",
         "github": "https://github.com/arielbs1991/day-planner-hw",
