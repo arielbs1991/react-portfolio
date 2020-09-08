@@ -29,7 +29,7 @@ const LinkedInCard = () => {
         <Card className={classes.root}>
             <CardContent>
                 <IconButton aria-label="LinkedIn">
-                <a href="https://www.linkedin.com/in/ariel-strayer-28640b190/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/ariel-strayer/" target="_blank" rel="noopener noreferrer">
                     <LinkedIn />
                 </a>
                 </IconButton>
