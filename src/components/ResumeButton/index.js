@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Grid, Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import resumeP1 from '../../images/resumepg1.png';
+import resume from '../../condensed_resume.pdf';
+import resumeP1 from '../../images/condensed_resume.png';
 import resumeP2 from '../../images/resumepg2.png';
 require('./ResumeButton.css');
 
@@ -40,7 +41,7 @@ const ResumeButton = () => {
                         </a>
                         </Button>
                     </Grid>
-                    <Grid
+                    {/* <Grid
                         item xs={12}>
                         <Button
                             variant="outlined"
@@ -53,13 +54,13 @@ const ResumeButton = () => {
                                 Download Zip File
                         </a>
                         </Button>
-                    </Grid>
-                    <Grid item xs={12} me={12} lg={6}>
+                    </Grid> */}
+                    <Grid item xs={12} me={12} lg={8}>
                         <img alt="page one of resume, I apologize for not having a pdf" className="resume" src={resumeP1}></img>
                     </Grid>
-                    <Grid item xs={12} me={12} lg={6}>
+                    {/* <Grid item xs={12} me={12} lg={6}>
                         <img alt="page two of resume, I apologize for not having a pdf" className="resume" src={resumeP2}></img>
-                    </Grid>
+                    </Grid> */}
                 </Grid>
             </Container>
         </div>

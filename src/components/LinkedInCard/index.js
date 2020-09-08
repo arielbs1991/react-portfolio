@@ -39,7 +39,7 @@ const LinkedInCard = () => {
             </CardContent>
             <CardActions>
                 <Button size="small">
-                <a href="https://www.linkedin.com/in/ariel-strayer-28640b190/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/ariel-strayer/" target="_blank" rel="noopener noreferrer">
                 Take a Look
                 </a>
                 </Button>
